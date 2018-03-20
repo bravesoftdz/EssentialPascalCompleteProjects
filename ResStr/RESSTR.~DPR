@@ -1,7 +1,6 @@
 program ResStr;
 
 uses
-  ExceptionLog,
   Forms,
   ResStrF in 'ResStrF.pas' {Form1};
 
