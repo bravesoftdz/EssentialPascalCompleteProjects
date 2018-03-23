@@ -7,71 +7,76 @@
   produced executable.
 */
 
-#define Consts_SDuplicateItem 65344
-#define Consts_SmkcLeft 65360
-#define Consts_SmkcUp 65361
-#define Consts_SmkcRight 65362
-#define Consts_SmkcDown 65363
-#define Consts_SmkcIns 65364
-#define Consts_SmkcDel 65365
-#define Consts_SmkcShift 65366
-#define Consts_SmkcCtrl 65367
-#define Consts_SmkcAlt 65368
-#define Consts_SIconToClipboard 65369
-#define Consts_SBitsIndexError 65370
-#define Consts_SDuplicateMenus 65371
-#define Consts_SDockedCtlNeedsName 65372
-#define Consts_SDockTreeRemoveError 65373
-#define Consts_SDockZoneNotFound 65374
-#define Consts_SDockZoneHasNoCtl 65375
-#define Consts_SMsgDlgHelp 65376
-#define Consts_SMsgDlgAbort 65377
-#define Consts_SMsgDlgRetry 65378
-#define Consts_SMsgDlgIgnore 65379
-#define Consts_SMsgDlgAll 65380
-#define Consts_SMsgDlgNoToAll 65381
-#define Consts_SMsgDlgYesToAll 65382
-#define Consts_SmkcBkSp 65383
-#define Consts_SmkcTab 65384
-#define Consts_SmkcEsc 65385
-#define Consts_SmkcEnter 65386
-#define Consts_SmkcSpace 65387
-#define Consts_SmkcPgUp 65388
-#define Consts_SmkcPgDn 65389
-#define Consts_SmkcEnd 65390
-#define Consts_SmkcHome 65391
-#define Consts_SCannotShowModal 65392
-#define Consts_SMenuIndexError 65393
-#define Consts_SMenuReinserted 65394
-#define Consts_SMenuNotFound 65395
-#define Consts_SGroupIndexTooLow 65396
-#define Consts_SNoMDIForm 65397
-#define Consts_SControlParentSetToSelf 65398
-#define Consts_SCannotDragForm 65399
-#define Consts_SMsgDlgWarning 65400
-#define Consts_SMsgDlgError 65401
-#define Consts_SMsgDlgInformation 65402
-#define Consts_SMsgDlgConfirm 65403
-#define Consts_SMsgDlgYes 65404
-#define Consts_SMsgDlgNo 65405
-#define Consts_SMsgDlgOK 65406
-#define Consts_SMsgDlgCancel 65407
+#define Consts_SDuplicateMenus 65344
+#define Consts_SDockedCtlNeedsName 65345
+#define Consts_SDockTreeRemoveError 65346
+#define Consts_SDockZoneNotFound 65347
+#define Consts_SDockZoneHasNoCtl 65348
+#define Consts_SDuplicateItem 65349
+#define Consts_SmkcSpace 65360
+#define Consts_SmkcPgUp 65361
+#define Consts_SmkcPgDn 65362
+#define Consts_SmkcEnd 65363
+#define Consts_SmkcHome 65364
+#define Consts_SmkcLeft 65365
+#define Consts_SmkcUp 65366
+#define Consts_SmkcRight 65367
+#define Consts_SmkcDown 65368
+#define Consts_SmkcIns 65369
+#define Consts_SmkcDel 65370
+#define Consts_SmkcShift 65371
+#define Consts_SmkcCtrl 65372
+#define Consts_SmkcAlt 65373
+#define Consts_SIconToClipboard 65374
+#define Consts_SBitsIndexError 65375
+#define Consts_SMsgDlgConfirm 65376
+#define Consts_SMsgDlgYes 65377
+#define Consts_SMsgDlgNo 65378
+#define Consts_SMsgDlgOK 65379
+#define Consts_SMsgDlgCancel 65380
+#define Consts_SMsgDlgHelp 65381
+#define Consts_SMsgDlgAbort 65382
+#define Consts_SMsgDlgRetry 65383
+#define Consts_SMsgDlgIgnore 65384
+#define Consts_SMsgDlgAll 65385
+#define Consts_SMsgDlgNoToAll 65386
+#define Consts_SMsgDlgYesToAll 65387
+#define Consts_SmkcBkSp 65388
+#define Consts_SmkcTab 65389
+#define Consts_SmkcEsc 65390
+#define Consts_SmkcEnter 65391
+#define Consts_SVisibleChanged 65392
+#define Consts_SCannotShowModal 65393
+#define Consts_SMenuIndexError 65394
+#define Consts_SMenuReinserted 65395
+#define Consts_SMenuNotFound 65396
+#define Consts_SGroupIndexTooLow 65397
+#define Consts_SNoMDIForm 65398
+#define Consts_SControlParentSetToSelf 65399
+#define Consts_SCannotDragForm 65400
+#define Consts_SVMetafiles 65401
+#define Consts_SVEnhMetafiles 65402
+#define Consts_SVIcons 65403
+#define Consts_SVBitmaps 65404
+#define Consts_SMsgDlgWarning 65405
+#define Consts_SMsgDlgError 65406
+#define Consts_SMsgDlgInformation 65407
 #define Consts_SInvalidIcon 65408
-#define Consts_SChangeIconSize 65409
-#define Consts_SUnknownClipboardFormat 65410
-#define Consts_SOutOfResources 65411
-#define Consts_SNoCanvasHandle 65412
-#define Consts_SInvalidImageSize 65413
-#define Consts_SInvalidImageList 65414
-#define Consts_SImageIndexError 65415
-#define Consts_SImageReadFail 65416
-#define Consts_SImageWriteFail 65417
-#define Consts_SWindowDCError 65418
-#define Consts_SWindowClass 65419
-#define Consts_SCannotFocus 65420
-#define Consts_SParentRequired 65421
-#define Consts_SMDIChildNotVisible 65422
-#define Consts_SVisibleChanged 65423
+#define Consts_SInvalidMetafile 65409
+#define Consts_SChangeIconSize 65410
+#define Consts_SUnknownClipboardFormat 65411
+#define Consts_SOutOfResources 65412
+#define Consts_SNoCanvasHandle 65413
+#define Consts_SInvalidImageSize 65414
+#define Consts_SInvalidImageList 65415
+#define Consts_SImageIndexError 65416
+#define Consts_SImageReadFail 65417
+#define Consts_SImageWriteFail 65418
+#define Consts_SWindowDCError 65419
+#define Consts_SWindowClass 65420
+#define Consts_SCannotFocus 65421
+#define Consts_SParentRequired 65422
+#define Consts_SMDIChildNotVisible 65423
 #define Consts_SResNotFound 65424
 #define Consts_SListIndexError 65425
 #define Consts_SListCapacityError 65426
@@ -186,7 +191,17 @@
 #define SysConst_SIntOverflow 65535
 STRINGTABLE
 BEGIN
+	Consts_SDuplicateMenus,	"Menu '%s' is already being used by another form"
+	Consts_SDockedCtlNeedsName,	"Docked control must have a name"
+	Consts_SDockTreeRemoveError,	"Error removing control from dock tree"
+	Consts_SDockZoneNotFound,	" - Dock zone not found"
+	Consts_SDockZoneHasNoCtl,	" - Dock zone has no control"
 	Consts_SDuplicateItem,	"List does not allow duplicates ($0%x)"
+	Consts_SmkcSpace,	"Space"
+	Consts_SmkcPgUp,	"PgUp"
+	Consts_SmkcPgDn,	"PgDn"
+	Consts_SmkcEnd,	"End"
+	Consts_SmkcHome,	"Home"
 	Consts_SmkcLeft,	"Left"
 	Consts_SmkcUp,	"Up"
 	Consts_SmkcRight,	"Right"
@@ -198,11 +213,11 @@ BEGIN
 	Consts_SmkcAlt,	"Alt+"
 	Consts_SIconToClipboard,	"Clipboard does not support Icons"
 	Consts_SBitsIndexError,	"Bits index out of range"
-	Consts_SDuplicateMenus,	"Menu '%s' is already being used by another form"
-	Consts_SDockedCtlNeedsName,	"Docked control must have a name"
-	Consts_SDockTreeRemoveError,	"Error removing control from dock tree"
-	Consts_SDockZoneNotFound,	" - Dock zone not found"
-	Consts_SDockZoneHasNoCtl,	" - Dock zone has no control"
+	Consts_SMsgDlgConfirm,	"Confirm"
+	Consts_SMsgDlgYes,	"&Yes"
+	Consts_SMsgDlgNo,	"&No"
+	Consts_SMsgDlgOK,	"OK"
+	Consts_SMsgDlgCancel,	"Cancel"
 	Consts_SMsgDlgHelp,	"&Help"
 	Consts_SMsgDlgAbort,	"&Abort"
 	Consts_SMsgDlgRetry,	"&Retry"
@@ -214,11 +229,7 @@ BEGIN
 	Consts_SmkcTab,	"Tab"
 	Consts_SmkcEsc,	"Esc"
 	Consts_SmkcEnter,	"Enter"
-	Consts_SmkcSpace,	"Space"
-	Consts_SmkcPgUp,	"PgUp"
-	Consts_SmkcPgDn,	"PgDn"
-	Consts_SmkcEnd,	"End"
-	Consts_SmkcHome,	"Home"
+	Consts_SVisibleChanged,	"Cannot change Visible in OnShow or OnHide"
 	Consts_SCannotShowModal,	"Cannot make a visible window modal"
 	Consts_SMenuIndexError,	"Menu index out of range"
 	Consts_SMenuReinserted,	"Menu inserted twice"
@@ -227,15 +238,15 @@ BEGIN
 	Consts_SNoMDIForm,	"Cannot create form. No MDI forms are currently active"
 	Consts_SControlParentSetToSelf,	"A control cannot have itself as its parent"
 	Consts_SCannotDragForm,	"Cannot drag a form"
+	Consts_SVMetafiles,	"Metafiles"
+	Consts_SVEnhMetafiles,	"Enhanced Metafiles"
+	Consts_SVIcons,	"Icons"
+	Consts_SVBitmaps,	"Bitmaps"
 	Consts_SMsgDlgWarning,	"Warning"
 	Consts_SMsgDlgError,	"Error"
 	Consts_SMsgDlgInformation,	"Information"
-	Consts_SMsgDlgConfirm,	"Confirm"
-	Consts_SMsgDlgYes,	"&Yes"
-	Consts_SMsgDlgNo,	"&No"
-	Consts_SMsgDlgOK,	"OK"
-	Consts_SMsgDlgCancel,	"Cancel"
 	Consts_SInvalidIcon,	"Icon image is not valid"
+	Consts_SInvalidMetafile,	"Metafile is not valid"
 	Consts_SChangeIconSize,	"Cannot change the size of an icon"
 	Consts_SUnknownClipboardFormat,	"Unsupported clipboard format"
 	Consts_SOutOfResources,	"Out of system resources"
@@ -250,7 +261,6 @@ BEGIN
 	Consts_SCannotFocus,	"Cannot focus a disabled or invisible window"
 	Consts_SParentRequired,	"Control '%s' has no parent window"
 	Consts_SMDIChildNotVisible,	"Cannot hide an MDI Child Form"
-	Consts_SVisibleChanged,	"Cannot change Visible in OnShow or OnHide"
 	Consts_SResNotFound,	"Resource %s not found"
 	Consts_SListIndexError,	"List index out of bounds (%d)"
 	Consts_SListCapacityError,	"List capacity out of bounds (%d)"

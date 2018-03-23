@@ -73,7 +73,7 @@ begin
   LabelMax.Caption := Format ('%x ??', [High (Cardinal)]);
   LabelMin.Caption := IntToStr (Low (Cardinal));
   // hi Cardinal
-  hi('Cardinal');
+  hi('Short');
 end;
 
 procedure TFormRange.BtnWordClick(Sender: TObject);

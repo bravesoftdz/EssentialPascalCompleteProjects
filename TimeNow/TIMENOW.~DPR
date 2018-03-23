@@ -1,7 +1,6 @@
 program TimeNow;
 
 uses
-  ExceptionLog,
   Forms,
   TimeNowF in 'TimeNowF.pas' {FormTimeNow};
 
